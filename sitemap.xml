@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://evethllax.win/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/tags/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/archives/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/categories/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/about/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/2017/08/30/learn-markdown/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/2017/07/31/how-to-init-hexo/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/2017/07/22/test/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/tags/index.html</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+<url>
+  <loc>http://evethllax.win/tags/learn-markdown/</loc>
+  <lastmod>2017-08-31T00:53:03+00:00</lastmod>
+</url>
+</urlset>
