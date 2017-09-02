@@ -482,10 +482,14 @@
 
       
         
-          <h2 id="一大波test正在路上-没写完"><a href="#一大波test正在路上-没写完" class="headerlink" title="一大波test正在路上 没写完"></a>一大波test正在路上 没写完</h2><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p><strong>安装前提：</strong><br>        <a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a><br>        <a href="http://git-scm.com/" target="_blank" rel="external">Git</a></p>
+          <h2 id="一大波test正在路上-没写完"><a href="#一大波test正在路上-没写完" class="headerlink" title="一大波test正在路上 没写完"></a>一大波test正在路上 没写完</h2><h2 id="练习写MarkDown"><a href="#练习写MarkDown" class="headerlink" title="练习写MarkDown"></a>练习写MarkDown</h2><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">官方教程-中文</a></p>
+<p><strong>安装前提：</strong><br>        <a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a><br>        <a href="http://git-scm.com/" target="_blank" rel="external">Git</a></p>
 <p><strong>若已经准备好环境</strong></p>
-<pre><code class="bash">$ npm install -g hexo-cli     <span class="comment">#全局安装hexo</span>
-</code></pre>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli     #全局安装hexo</div></pre></td></tr></table></figure>
+<p>hexo常用的命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ hexo g	#将source等的内容生成静态网页</div><div class="line"></div><div class="line">$ hexo s	#开启本地服务器 查看hexo渲染的效果</div><div class="line"></div><div class="line">$ hexo d	#将内容部署到网站上</div><div class="line"></div><div class="line">$ hexo init &lt;floder&gt;	#初始化一个指点文件夹&lt;floder&gt;为blog的源码存放位置</div><div class="line"></div><div class="line">$ hexo clean 	#清除之前 hexo g 生成的静态文件 </div><div class="line"></div><div class="line">$ hexo --debug	#debug</div><div class="line"></div><div class="line">$ hexo new [layout] &lt;title&gt; 	#新建一篇文章</div></pre></td></tr></table></figure></p>
+<p>更多信息请去<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">官方教程-中文https://hexo.io/zh-cn/</a></p>
+<p>因为我使用git所以安装hexo-deployer-git来部署</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/07/31/how-to-init-hexo/#more" rel="contents">

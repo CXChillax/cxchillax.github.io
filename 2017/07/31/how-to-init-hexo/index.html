@@ -95,17 +95,17 @@
 
 
 
-<meta name="description" content="一大波test正在路上 没写完安装hexo安装前提：        Node.js        Git 若已经准备好环境 $ npm install -g hexo-cli     #全局安装hexo">
+<meta name="description" content="一大波test正在路上 没写完练习写MarkDown安装hexo官方教程-中文 安装前提：        Node.js        Git 若已经准备好环境 1$ npm install -g hexo-cli     #全局安装hexo hexo常用的命令12345678910111213$ hexo g	#将source等的内容生成静态网页$ hexo s	#开启本地服务器 查看hexo渲">
 <meta property="og:type" content="article">
 <meta property="og:title" content="windows 7环境安装hexo与next主题并部署在GitHub上">
 <meta property="og:url" content="https://evethllax.win/2017/07/31/how-to-init-hexo/index.html">
 <meta property="og:site_name" content="半夏半醒">
-<meta property="og:description" content="一大波test正在路上 没写完安装hexo安装前提：        Node.js        Git 若已经准备好环境 $ npm install -g hexo-cli     #全局安装hexo">
+<meta property="og:description" content="一大波test正在路上 没写完练习写MarkDown安装hexo官方教程-中文 安装前提：        Node.js        Git 若已经准备好环境 1$ npm install -g hexo-cli     #全局安装hexo hexo常用的命令12345678910111213$ hexo g	#将source等的内容生成静态网页$ hexo s	#开启本地服务器 查看hexo渲">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-31T07:39:02.930Z">
+<meta property="og:updated_time" content="2017-09-02T06:08:53.464Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="windows 7环境安装hexo与next主题并部署在GitHub上">
-<meta name="twitter:description" content="一大波test正在路上 没写完安装hexo安装前提：        Node.js        Git 若已经准备好环境 $ npm install -g hexo-cli     #全局安装hexo">
+<meta name="twitter:description" content="一大波test正在路上 没写完练习写MarkDown安装hexo官方教程-中文 安装前提：        Node.js        Git 若已经准备好环境 1$ npm install -g hexo-cli     #全局安装hexo hexo常用的命令12345678910111213$ hexo g	#将source等的内容生成静态网页$ hexo s	#开启本地服务器 查看hexo渲">
 
 
 
@@ -355,16 +355,23 @@
       
 
       
-        <h2 id="一大波test正在路上-没写完"><a href="#一大波test正在路上-没写完" class="headerlink" title="一大波test正在路上 没写完"></a>一大波test正在路上 没写完</h2><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p><strong>安装前提：</strong><br>        <a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a><br>        <a href="http://git-scm.com/" target="_blank" rel="external">Git</a></p>
+        <h2 id="一大波test正在路上-没写完"><a href="#一大波test正在路上-没写完" class="headerlink" title="一大波test正在路上 没写完"></a>一大波test正在路上 没写完</h2><h2 id="练习写MarkDown"><a href="#练习写MarkDown" class="headerlink" title="练习写MarkDown"></a>练习写MarkDown</h2><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">官方教程-中文</a></p>
+<p><strong>安装前提：</strong><br>        <a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a><br>        <a href="http://git-scm.com/" target="_blank" rel="external">Git</a></p>
 <p><strong>若已经准备好环境</strong></p>
-<pre><code class="bash">$ npm install -g hexo-cli     <span class="comment">#全局安装hexo</span>
-</code></pre>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli     #全局安装hexo</div></pre></td></tr></table></figure>
+<p>hexo常用的命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ hexo g	#将source等的内容生成静态网页</div><div class="line"></div><div class="line">$ hexo s	#开启本地服务器 查看hexo渲染的效果</div><div class="line"></div><div class="line">$ hexo d	#将内容部署到网站上</div><div class="line"></div><div class="line">$ hexo init &lt;floder&gt;	#初始化一个指点文件夹&lt;floder&gt;为blog的源码存放位置</div><div class="line"></div><div class="line">$ hexo clean 	#清除之前 hexo g 生成的静态文件 </div><div class="line"></div><div class="line">$ hexo --debug	#debug</div><div class="line"></div><div class="line">$ hexo new [layout] &lt;title&gt; 	#新建一篇文章</div></pre></td></tr></table></figure></p>
+<p>更多信息请去<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">官方教程-中文https://hexo.io/zh-cn/</a></p>
+<p>因为我使用git所以安装hexo-deployer-git来部署</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h2 id="练习写MarkDown"><a href="#练习写MarkDown" class="headerlink" title="练习写MarkDown"></a>练习写MarkDown</h2><h2 id="在github上建立两个-repo-一个-放源码-一个放网页"><a href="#在github上建立两个-repo-一个-放源码-一个放网页" class="headerlink" title="在github上建立两个 repo 一个 放源码  一个放网页"></a>在github上建立两个 repo 一个 放源码  一个放网页</h2><h2 id="期间遇到的坑"><a href="#期间遇到的坑" class="headerlink" title="期间遇到的坑"></a>期间遇到的坑</h2><ul>
-<li>打开menu菜单的一些选项出现下面提示</li>
+<h2 id="在github上建立两个-repo-一个-放源码-一个放网页"><a href="#在github上建立两个-repo-一个-放源码-一个放网页" class="headerlink" title="在github上建立两个 repo 一个 放源码  一个放网页"></a>在github上建立两个 repo 一个 放源码  一个放网页</h2><h2 id="期间遇到的坑"><a href="#期间遇到的坑" class="headerlink" title="期间遇到的坑"></a>期间遇到的坑</h2><ul>
+<li><p>前期卡了很久 因为使用next主题 源码同步不成功<br>解决<br>1.删除主题下的.git 可能需要权限<br>2.git 的 submodule 策略（不是怎么会时候用,留个链接）<a href="https://my.oschina.net/iatbforever/blog/228914" target="_blank" rel="external">Git 通过submodule添加子项目/库。</a></p>
+</li>
+<li><p>配置文件不起作用<br>检查配置参数间有没有空格</p>
+</li>
+<li><p>打开menu菜单的一些选项出现下面提示 Cannot GET /tags/</p>
+</li>
 </ul>
-<pre><code class="bash">Cannot GET /tags/
-</code></pre>
 <p>解决<br><a href="https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2" target="_blank" rel="external">next wiki</a></p>
 <ul>
 <li><p>Git fast forward问题<br><a href="http://blog.csdn.net/csfreebird/article/details/7916625" target="_blank" rel="external">csdn</a></p>
@@ -560,7 +567,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一大波test正在路上-没写完"><span class="nav-number">1.</span> <span class="nav-text">一大波test正在路上 没写完</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo"><span class="nav-number">2.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习写MarkDown"><span class="nav-number">3.</span> <span class="nav-text">练习写MarkDown</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在github上建立两个-repo-一个-放源码-一个放网页"><span class="nav-number">4.</span> <span class="nav-text">在github上建立两个 repo 一个 放源码  一个放网页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#期间遇到的坑"><span class="nav-number">5.</span> <span class="nav-text">期间遇到的坑</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一大波test正在路上-没写完"><span class="nav-number">1.</span> <span class="nav-text">一大波test正在路上 没写完</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习写MarkDown"><span class="nav-number">2.</span> <span class="nav-text">练习写MarkDown</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo"><span class="nav-number">3.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在github上建立两个-repo-一个-放源码-一个放网页"><span class="nav-number">4.</span> <span class="nav-text">在github上建立两个 repo 一个 放源码  一个放网页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#期间遇到的坑"><span class="nav-number">5.</span> <span class="nav-text">期间遇到的坑</span></a></li></ol></div>
             
 
           </div>
